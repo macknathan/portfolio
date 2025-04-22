@@ -101,7 +101,4 @@ theme: redefine
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/macknathan/portfolio.git
-  message: 'Hexo Deploy'
-  token:  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
+  type: ''
