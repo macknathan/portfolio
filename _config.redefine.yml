@@ -204,22 +204,22 @@ navbar:
   links:
     Home: 
       path: / 
-      icon: fa-regular fa-home # can be empty
-    # Archives: 
-    #   path: /archives 
-    #   icon: fa-regular fa-archive # can be empty
+      icon: fa-solid fa-house # can be empty
+    All Posts: 
+      path: /archives 
+      icon: fa-solid fa-archive fa-fw # can be empty
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
     About: 
       path: /about
-      icon: fa-regular fa-user
+      icon: fa-solid fa-user
       submenus:
         Me: /about
         Resume: /resume
     Skills:
       path: /
-      icon: fa-regular fa-star
+      icon: fa-solid fa-star
       submenus:
         Problem-Solving: /skills/problem-solving
         Adaptability: /skills/adaptability
@@ -303,7 +303,7 @@ articles:
     min2read: true # Whether to display reading time
   # Author label
   author_label: 
-    enable: true # Whether to enable
+    enable: false # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
     list: []
   # Code block settings
