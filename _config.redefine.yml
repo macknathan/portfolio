@@ -72,11 +72,11 @@ global:
   # Effects on mouse hover
   hover:
     shadow: true # shadow effect
-    scale: false # scale effect
+    scale: true # scale effect
   # Scroll progress
   scroll_progress:
     bar: true # progress bar
-    percentage: false # percentage
+    percentage: true # percentage
   # Website counter
   website_counter:
     url: https://cn.vercount.one/js # counter API URL (no need to change)
@@ -131,8 +131,9 @@ home_banner:
   title: Nathan Mack
   # Home banner subtitle
   subtitle:
-    text: ["Cybersecurity Student at Old Dominion University", 
-           "Seeking Internship or Employment"] # subtitle text, array
+    text: ["Cybersecurity Student at ODU", 
+           "Seeking Internship or Employment",
+           "Passionate about Technology"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -174,7 +175,10 @@ home_banner:
       github:  https://github.com/macknathan
       email:  nathan@nemack.net
       linkedin: https://www.linkedin.com/in/nathan-mack-b91915198/
+      bluesky: https://bsky.app/profile/nemack.net
       # ...... # you can add more
+    icons:
+      bluesky: fa-brands fa-bluesky
     # Social links with QRcode drawers
     qrs:
       weixin:  # your Wechat QRcode image URL
@@ -200,7 +204,7 @@ navbar:
   links:
     Home: 
       path: / 
-      icon: fa-regular fa-house # can be empty
+      icon: fa-regular fa-home # can be empty
     # Archives: 
     #   path: /archives 
     #   icon: fa-regular fa-archive # can be empty
@@ -213,6 +217,13 @@ navbar:
       submenus:
         Me: /about
         Resume: /resume
+    Skills:
+      path: /
+      icon: fa-regular fa-star
+      submenus:
+        Problem-Solving: /skills/problem-solving
+        Adaptability: /skills/adaptability
+        Writing: /skills/writing 
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
@@ -465,13 +476,14 @@ cdn:
   # Whether to enable CDN
   enable: false
   # CDN Provider
-  provider: npmmirror # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
+  provider: jsdelivr # npmmirror, zstatic, cdnjs, jsdelivr, unpkg, custom
   # Custom CDN URL
   # format example: https://cdn.custom.com/hexo-theme-redefine/${version}/source/${path}
   # The ${path} must leads to the root of the "source" folder of the theme
-  custom_url: 
+  custom_url: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/all.min.css
 # CDN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
+include:
+  - themes/redefine/source/fontawesome
 # DEVELOPER MODE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/developer
 developer:
