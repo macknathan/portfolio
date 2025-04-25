@@ -1,8 +1,10 @@
 ---
 title: Personal Narrative Essay
 date: 2025-04-05
-category: Essays
-tags: IDS 493
+category: Writing
+tags:
+    - ePortfolio Course
+    - Essay
 ---
 
 This personal narrative essay reflects on key academic and work experiences that shaped my career path. It tells the story of how I discovered my goals and interests, connecting past moments to my present direction.

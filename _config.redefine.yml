@@ -217,13 +217,6 @@ navbar:
       submenus:
         Me: /about
         Resume: /resume
-    Skills:
-      path: /
-      icon: fa-solid fa-star
-      submenus:
-        Problem-Solving: /skills/problem-solving
-        Adaptability: /skills/adaptability
-        Writing: /skills/writing 
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:

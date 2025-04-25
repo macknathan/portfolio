@@ -1,8 +1,11 @@
 ---
-title: Adaptability
-hide_title: true
+title: ADHD Speech
+date: 2025-04-24 22:30:28
+category: Adaptability
+tags:
+    - Public Speaking
+    - Speech
 ---
-# Adaptability
 
 ***Adapting on the Fly – Public Speaking in a Virtual World***
 While taking a public speaking class at Old Dominion University, I had to navigate an unexpected twist, which was that the class was fully online. Instead of standing in front of a classroom, I gave my speeches live over Zoom to a mix of friends and classmates, all while sitting at my desk or pacing around my room. It wasn’t the traditional setup, but it gave me a chance to show one of my strengths: adaptability. No podium, no crowd, just a webcam and a willingness to roll with the punches.
