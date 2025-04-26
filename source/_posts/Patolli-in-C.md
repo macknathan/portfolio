@@ -1,6 +1,6 @@
 ---
 title: Patolli in C++
-date: 2025-04-24 22:28:37
+date: 2023-04-20
 category: Problem-Solving
 tags:
     - Programming

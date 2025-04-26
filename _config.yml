@@ -31,6 +31,7 @@ i18n_dir: :lang
 skip_render:
 static_dirs:
   - source/fontawesome
+  - source/static
 
 # Writing
 new_post_name: :title.md # File name of new posts
