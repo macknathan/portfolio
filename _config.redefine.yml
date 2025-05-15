@@ -131,7 +131,8 @@ home_banner:
   title: Nathan Mack
   # Home banner subtitle
   subtitle:
-    text: ["Cybersecurity Student at ODU", 
+    text: ["Old Dominion University Graduate",
+           "Bachelor of Science in Cybersecurity", 
            "Seeking Internship or Employment",
            "Passionate about Technology"] # subtitle text, array
     hitokoto:  # 一言配置
