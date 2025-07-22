@@ -14,7 +14,7 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
-    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "hexo": "^7.3.0",
     "hexo-all-minifier": "^0.5.2",
     "hexo-deployer-git": "^4.0.0",
