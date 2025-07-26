@@ -132,9 +132,9 @@ home_banner:
   # Home banner subtitle
   subtitle:
     text: ["Old Dominion University Graduate",
+           "CompTIA Security+ Certified",
            "Bachelor of Science in Cybersecurity", 
-           "Seeking Internship or Employment",
-           "Passionate about Technology"] # subtitle text, array
+           "Seeking Internship or Employment"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -213,11 +213,8 @@ navbar:
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
     About: 
-      path: /about
+      path: /resume
       icon: fa-solid fa-user
-      submenus:
-        Me: /about
-        Resume: /resume
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
